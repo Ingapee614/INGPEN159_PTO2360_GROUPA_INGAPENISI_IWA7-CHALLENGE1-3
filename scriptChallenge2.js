@@ -1,5 +1,6 @@
-const nickname= "Timmy";
-const firstname = "Timothy";
-const nickOrFirst= nickname||firstname
 
-console.log("Good Morning,"+nickOrFirst) // everything was a string,including conditions
+
+const nickName = "Timmy";
+const firstName = "Timothy";
+
+console.log(`Good Morning, ${nickName || firstName}!`);
